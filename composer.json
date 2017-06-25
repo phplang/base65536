@@ -1,0 +1,29 @@
+{
+  "name": "phplang/base65536",
+  "description": "Base65536 encode/decode utility",
+  "type": "library",
+  "keywords": [
+    "base65536"
+  ],
+  "homepage": "https://github.com/phplang/base65536",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sara Golemon",
+      "email": "pollita@php.net",
+      "homepage": "https://twitter.com/SaraMG",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PhpLang\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0.0"
+  }
+}
